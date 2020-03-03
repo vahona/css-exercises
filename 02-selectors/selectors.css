@@ -4,7 +4,7 @@
 }
 
 
-/* 2 = Select only table elements, name=Type selector*/
+/* 2 = Select only table elements, name=Element selector*/
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -18,42 +18,46 @@ table {
 }
 
 
-/* 4 = Select any `h1` element that is a descendent of the `header` element, name=Child combinator */
-header>h1 {
+/* 4 = Select any `h1` element that is a descendent of the `header` element, name= descendent combinator */
+header h1 {
   font-size: 4rem;
   margin-bottom: 0;
 }
 
 
-/* 5 = Select only the `ul` elements that are children of the `nav` element, name=Child combinator */
-nav>ul {
+/* 5 = Select only the `ul` elements that are children of the `nav` element, name=Child combinator direct descenddent */
+nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 
-/* 6 = Select only the first child paragraph within a `section` element, name=Child combination*/
-section>p:first-child {
+/* 6 = Select only the first child paragraph within a `section` element, name=pseudo-class selector for:first-chiled combination*/
+section > p:first-child {
   font-size: 1.5rem;
 }
 
 
-/* 7 = Select any heading element, name= Element selector*/
- .heading{
+/* 7 = Select any heading element, name= Element selector as a list*/
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
   font-weight: normal;
 }
 
 
-/* 8 = Select all anchors that are also links, name=ID selector */
+/* 8 = Select all anchors that are also links, name=link pseudo-class, element */
 
-a[href*=\/] {
+a:link {
   text-decoration: underline;
 }
 
 
-/* 9 = Select any anchor that is hovered over with the mouse, name=
-Pseudo selector */
+/* 9 = Select any anchor that is hovered over with the mouse, name= Hover pseudo-class, element selector */
 a:hover {
   text-decoration: none;
 }
@@ -66,15 +70,15 @@ a:hover {
 }
 
 
-/* 11 = Select all paragraph elements that have a class value of `hidden`, name=Class selector */
+/* 11 = Select all paragraph elements that have a class value of `hidden`, name=Class selector, element selector */
 
 p.hidden {
   display: none;
 }
 
 
-/* 12 = Select all form elements that have a method attribute set to `POST`, name=Attribute selector */
-[attribute=post] {
+/* 12 = Select all form elements that have a method attribute set to `POST`, name=Attribute selector element selector */
+[methode="POST"] {
   box-shadow: 2px 2px 5px rgba(0,0,0,.1);
 }
 
@@ -86,7 +90,7 @@ p.hidden {
 
 
 /* 14 = Select any sibling paragraph elements that are preceeded by an `h3`, name=General sibling combinator */
-h3 ~ p{
+h3 ~ p {
   color: #66F;
 }
 
@@ -99,7 +103,7 @@ h3 + p {
 
 /* 16 = Select every cell within each odd table row,name =
 pseudo class selector*/
-tr:nth-child(odd) {
+tr:nth-child(odd) > * {
   background-color: rgba(0,0,0,.1);
 }
 
@@ -111,7 +115,7 @@ img:not([alt]) {
 
 
 /* 18 = Select any `p` element that doesn't have any contents, name=Element selectore */
-p:not([contents]) {
+p:empty {
   display: none;
 }
 
