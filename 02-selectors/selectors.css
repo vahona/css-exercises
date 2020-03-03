@@ -47,7 +47,7 @@ section>p:first-child {
 
 /* 8 = Select all anchors that are also links, name=ID selector */
 
-a[href*=\#] {
+a[href*=\/] {
   text-decoration: underline;
 }
 
