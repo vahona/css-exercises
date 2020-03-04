@@ -6,3 +6,141 @@
   /* Property example with a value */
 
 }
+/* name: 'font' */
+/* Description: font property is a prefix of some fonts property and it specified them (`font-family`, `font-size`, `font-weight`, `font-style`, `line-height font-size */
+  /* Example */
+  .font {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    line-height: normal;
+}
+
+/* name:`font-family` */
+/* Description: font-family property define the first font which should be apply first in the list of font */
+  /* Example */
+    .font-family {
+      font-family: cursive;
+      font-size: large;
+      font-weight: bold;
+
+}
+/* name: `font-size`*/
+/* Description: font size property define the size of the font and also can calculate the size of em font */
+  /* Example*/
+    .font-size {
+        font-size: large;
+    }
+/* name:`font-weight`*/
+/*Description: font-weight property define the sets of words in a document whether it is thick (bold) or thin light presentation */
+  /* Example */
+    .font-weight {
+      font-weight: 800;
+    }
+/* name:`font-style`*/
+/*Description: font-style property define the style of the font that means shape of words in the document (Italic, oblique, normal) */
+  /* Example */
+  .font-style {
+    font-style: italic;
+  }
+/* name:`line-height`*/
+/*Description: line-height property sets the distance between two line on the the text */
+  /* Example */
+  .line-height {
+    line-height: 0%;
+  }
+/* name:`font-variant` */
+/*Description: font-variant property is a shorthand and of some propety font-variant for example: font-variant-ligature..., font variant define changes the mark text to small caps */
+  /* Example */
+  .font-variant {
+  font-variant: small-caps;
+  font-variant-alternates: historical-forms;
+}
+/* name:`font-stretch` */
+/*Description: Font-stretch property allows the text to be more slender or wide */
+  /* Example */
+  .font-stretch {
+    font-stretch: normal;
+}
+/* name:`font-size-adjust` */
+/*Description:font-size-adjust property sets the size which is should be apply, instead of using a capital height in lowercase use use a lowercase height. */
+  /* Example */
+  .font-size-adjust {
+    font-size-adjust: none;
+}
+/* name:`font-synthesis` */
+/*Description:font-synthesis property specify if the browser can synthesize bold or oblique by font-sythesis itself without mentioning fon-family the value*/
+/* Example */
+.font-synthesis {
+  font-synthesis: style;
+}
+/* name:`letter-spacing` */
+/*Description:letter-spacing property sets the space between letters and words in the text. */
+/* Example */
+.letter-spacing {
+  letter-spacing: 8rem;
+}
+/* name:`word-spacing`*/
+/*Description: word-spacing property sets the space between the words in the text */
+/* Example */
+.word-spacing {
+  word-spacing: 6rem;
+}
+/* name:`text-align`
+/*Description: text-align property sets an arrangement of a text or table cell box */
+/* Example */
+.text-aling {
+  text-align: center;
+}
+/* name:`text-decoration`*/
+/*Description: text-decoration property is a shorthand of some decorations property and it decorate the text or the document which you want to decorate*/
+/* Example */
+.text-decoration {
+  text-decoration: aquamarine;
+  text-decoration-line: line-through;
+  text-decoration-style: dashed;
+}
+  /* name:`text-decoration-line` */
+  /*Description: text-decoration-line property sets some of the decoration which is used on the text in an element */
+  /* Example */
+  .text-decoration-line {
+    text-decoration-line: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: brown;
+  }
+  /* name:`text-decoration-style` */
+  /*Description: text-decoration-style property has a relation to text decoration-line because it depends on what text-decoration-line specified then it sets the style of the lines from it. */
+  /* Example */
+  .text-decoration-style{
+    text-decoration-style: dashed;
+  }
+  /* name:`text-decoration-color`*/
+  /*Description: text-decoration-color property sets the color to text from text-decoration-line's style */
+  /* Example */
+  .text-decoration-color{
+    text-decoration-color: brown;
+  }
+/* name:`text-indent`*/
+/*Description: text-indent property define the length of the white space before a line. It is usually happen when we are writing the first line of a paragraph. */
+/* Example */
+.text-indent{
+  text-indent: 6rem;
+}
+/* name:`text-transform` */
+/*Description: text-transform property define how to capitalize or how to make the text into lowercase */
+/* Example */
+.text-transform {
+  text-transform: lowercase;
+}
+/* name:`vertical-align` */
+/*Description: vertical-align property sets the vertical alignment of inline, inline decorations*/
+/* Example */
+.vertical-align {
+  vertical-align: 9rem;
+}
+/* name:`white-space */
+/*Description: white-space property sets how white space inside an element is handled*/
+/* Example */
+.white-space {
+  white-space: pre-wrap;
+}
