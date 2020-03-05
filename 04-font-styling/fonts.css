@@ -43,7 +43,6 @@
 
   .example h2 {
     font-size: 2rem;
-    font-weight: 700;
     line-height: 1em;
 
 
@@ -51,7 +50,6 @@
 
   .example h3 {
     font-size: 1.5rem;
-    font-weight: 700;
     line-height: 1em;
     letter-spacing: normal;
 
@@ -59,7 +57,6 @@
 
   .example h4 {
     font-size: 1.25rem;
-    font-weight: 700;
     line-height: 1em;
     letter-spacing: normal;
 
@@ -67,14 +64,12 @@
 
   .example h5 {
     font-size: 1rem;
-    font-weight: 700;
     line-height: 1em;
 
   }
 
   .example h6 {
     font-size: 1rem;
-    font-weight: 700;
     line-height: 1em;
     font-variant-ligatures: small-caps;
 
