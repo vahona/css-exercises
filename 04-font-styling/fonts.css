@@ -1,7 +1,16 @@
-.section {
-  font-family: serif, sans-serif, monospace;
+
+  .example > * {
+    margin-block-end: 1em;
+
   }
 
+  .example h2,
+  .example h3,
+  .example h4,
+  .example h5,
+  .example h6 {
+    font-weight: 700;
+  }
 
   #section_sans_serif {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
