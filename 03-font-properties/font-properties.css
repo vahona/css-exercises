@@ -17,7 +17,7 @@
 }
 
 /* name:`font-family` */
-/* Description: font-family property define the first font which should be apply first in the list of font */
+/* Description: font-family property define the first font which should be apply first in the list of font to the browser */
   /* Example */
     .font-family {
       font-family: cursive;
@@ -44,20 +44,20 @@
     font-style: italic;
   }
 /* name:`line-height`*/
-/*Description: line-height property sets the distance between two line on the the text */
+/*Description: line-height property sets the distance between two line on the text */
   /* Example */
   .line-height {
     line-height: 0%;
   }
 /* name:`font-variant` */
-/*Description: font-variant property is a shorthand and of some propety font-variant for example: font-variant-ligature..., font variant define changes the mark text to small caps */
+/*Description: font-variant property is a shorthand and of some propety font-variant for example: font-variant-ligature..., font variant defines switches on optional future text to small caps */
   /* Example */
   .font-variant {
   font-variant: small-caps;
   font-variant-alternates: historical-forms;
 }
 /* name:`font-stretch` */
-/*Description: Font-stretch property allows the text to be more slender or wide */
+/*Description: Font-stretch property sets how wide or expended */
   /* Example */
   .font-stretch {
     font-stretch: normal;
@@ -87,7 +87,7 @@
   word-spacing: 6rem;
 }
 /* name:`text-align`
-/*Description: text-align property sets an arrangement of a text or table cell box */
+/*Description: text-align property sets an position of a text or table cell box */
 /* Example */
 .text-aling {
   text-align: center;
@@ -139,7 +139,7 @@
   vertical-align: 9rem;
 }
 /* name:`white-space */
-/*Description: white-space property sets how white space inside an element is handled*/
+/*Description: white-space property controle how white space behave.*/
 /* Example */
 .white-space {
   white-space: pre-wrap;
