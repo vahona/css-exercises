@@ -1,0 +1,99 @@
+.section {
+  font-family: serif, sans-serif, monospace;
+  }
+
+
+  #section_sans_serif {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  #section_serif {
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  #monspace {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+  #section_fantasy {
+    font-family: fantasy;
+  }
+
+  #section_cursive {
+    font-family: cursive;
+  }
+
+  .example h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1em;
+
+  }
+
+  .example h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1em;
+
+
+  }
+
+  .example h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: normal;
+
+  }
+
+  .example h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: normal;
+
+  }
+
+  .example h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1em;
+
+  }
+
+  .example h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1em;
+    font-variant-ligatures: small-caps;
+
+  }
+  p.intro{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1em;
+    font-variant-ligatures: 0em;
+  }
+
+  p.intro {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1em;
+    font-variant-ligatures: 0;
+    letter-spacing: 0.1em;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1em;
+  }
+
+  small {
+    font-size:0.75rem;
+    font-weight:400;
+    line-height: 1em;
+  }
+
