@@ -32,13 +32,13 @@
         font-size: large;
     }
 /* name:`font-weight`*/
-/*Description: font-weight property define the sets of words in a document whether it is thick (bold) or thin light presentation */
+/*Description: font-weight property defines the sets of words in a document whether it is thick (bold) or thin light presentation */
   /* Example */
     .font-weight {
       font-weight: 800;
     }
 /* name:`font-style`*/
-/*Description: font-style property define the style of the font that means shape of words in the document (Italic, oblique, normal) */
+/*Description: font-style property defines the style of the font that means shape of words in the document (Italic, oblique, normal) */
   /* Example */
   .font-style {
     font-style: italic;
@@ -109,13 +109,13 @@
     text-decoration-color: brown;
   }
   /* name:`text-decoration-style` */
-  /*Description: text-decoration-style property has a relation to text decoration-line because it depends on what text-decoration-line specified then it sets the style of the lines from it. */
+  /*Description: text-decoration-style property has a relation to the text decoration-line property because it depends on what text-decoration-line specified then it sets the style of the lines from it. */
   /* Example */
   .text-decoration-style{
     text-decoration-style: dashed;
   }
   /* name:`text-decoration-color`*/
-  /*Description: text-decoration-color property sets the color to text from text-decoration-line's style */
+  /*Description: text-decoration-color property sets the color to the text from text-decoration-line's style */
   /* Example */
   .text-decoration-color{
     text-decoration-color: brown;
