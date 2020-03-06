@@ -3,6 +3,109 @@
     Property name
     Property description
   */
-    /* Property example with a value */
+    /* Property example with /*a value */
 
   }
+
+
+/* Property name = color */
+/* Property description: colore property sets the font color of the document */
+/* Example */
+
+  link {
+   color: chocolate;
+
+  }
+
+/* Property name = background-color*/
+/* Property description : background-colore property sets the background-color of an element */
+/* Example */
+
+h1 > p#serif {
+  background-color: chartreuse;
+
+ }
+
+/* Property name= background-image */
+/* Property description : background-image sets one or more background-image elements */
+/* Example */
+
+img {
+  background-image: -moz-linear-gradient("result.png");
+  b
+
+ }
+
+/* Property name= background-repeat */
+/* Property description : background-repeat property sets the repetion of background image*/
+/* Example */
+
+ img {
+  background-repeat: space;
+
+ }
+
+/* Property name= background-position*/
+/* Property description : background-position property difine the position of the background image */
+/* Example */
+
+  img {
+  background-position: top;
+
+ }
+
+/* Property name= background-attachment */
+/* Property description : background-attachment property defines the position of the image's background whether it is scroll or fixe on the image
+/* Example */
+
+ img {
+  background-attachment: scroll;
+
+ }
+
+/* Property name= background-clip */
+/* Property description : background-clip property define
+/* Example */
+
+ img {
+    background-clip: unset;
+    border-image-width: 2px;
+
+}
+
+/* Property name= background-origin */
+/* Property description : background-origin property sets the background's origine */
+/* Example */
+
+img {
+  background-origin: border-box;
+  border-image-repeat: repeat;
+
+}
+
+/* Property name= background-size */
+/* Property description: background-size property define the size of the background.*/
+/* Example */
+
+img {
+  background-size: cover;
+  border-image-outset: 4px;
+  border-image-slice: fill;
+  border-image-source: none;
+
+
+}
+
+
+/* Property name= box-shadow */
+/* Property description : box-shadow property define the shadow around the element.*/
+/* Example */
+
+
+p {
+  box-shadow: beige;
+
+}
+
+
+
