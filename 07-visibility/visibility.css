@@ -27,7 +27,13 @@
      }
 
      /* Property name : Visibility
-       Property description : visibility property hide the rows or columns of a table and it has two fonction in that way , what is more it can hide element without changing layout. Possible value ( visible, hidden, collapse,an inherit )
+       Property description : visibility property hide the rows or columns of a table and it has two fonction in that way , what is more it can hide element without changing layout. Possible value ( visible, hidden, collapse,an inherit ) */
+
+       /* example */
+
+       section {
+         visibility: hidden;
+       }
 
 /*
   Questions
