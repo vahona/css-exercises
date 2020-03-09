@@ -2,14 +2,34 @@
 
 
 .dory {
-  background-image: url('../images/bubble.png'),
-                    url('../images/coral-reef.png');
-  background-position: left, center;
-  background-repeat: repeat-x, no-repeat;
-  background-size: 10%, 90%;
-  background-color: rgb(187, 236, 248);
-  background-image: 5px solid rgb(124, 136, 240);
-  background-image: linear-gradient(to left, lightblue)
+  background-color: rgba(84, 181, 245, 0.555);
+  background-image :url('../images/crab.png'),
+                    url('../images/bubble.png'),
+                    url('../images/coral-reef.png'),
+                    url('../images/sun.png'),
+                    linear-gradient(0deg, rgba(235, 216, 44, 0.712) 0%,
+                    rgba(235, 216, 44, 0.712) 50%,
+                    rgba(30, 107, 230, 0.924) 50%,
+                    rgba(30, 107, 230, 0.924) 90%,
+                    rgba(150, 149, 250, 0.507) 90%,
+                    rgba(150, 149, 250, 0.507) 100%);
+  background-position:
+                     70% 80%,/* crab */
+                     20% 70%,/* buble */
+                     center,/* coral-reef */
+                     top right, /* sun */
+                     0 0 ; /* linear-gradient */
+  background-repeat: no-repeat, /* crab */
+                     no-repeat, /* buble */
+                     no-repeat, /* coral-reef */
+                     no-repeat, /* sun */
+                     no-repeat ; /* linear-gradient */
+  background-size: 10%,  /* crab */
+                   15%,  /* buble */
+                   90%,  /* coral-reef */
+                   5%, /* sun */
+                   100% ; /* linear-gradient */
+
 
 
 }
@@ -17,13 +37,33 @@
 
 
 .henry {
-  background-color: rgb(230, 193, 101);
-  background-image: url("../images/grass-clump.png"),
+  background-color: rgba(241, 221, 35, 50%);
+  background-image:url("../images/grass-clump.png"),
                     url("../images/grass-left.png"),
-                    url("../images/grass-tile.png");
-  background-position:  center, center, right center;
-  background-size:  60%, 90%, 50%;
-  background-repeat:  no-repeat, repeat, no-repeat;
+                    url("../images/sun.png"),
+                    url("../images/grass-tile.png"),
+                    linear-gradient(0deg, rgba(223, 201, 10, 50%) 0%,
+                                   rgba(223, 201, 10, 50%) 40%,
+                                   rgba(110, 145, 240, 0.5) 40%,
+                                   rgba(110, 145, 240, 0.5) 60%,
+                                   rgba(107, 200, 243, 0.5) 60%,
+                                   rgba(107, 200, 243, 0.5) 100%);
+
+
+  background-position: 20% 50%,/* grass-clump */
+                       60% 30%,/* grass-left */
+                       15% 15%, /* sun */
+                       10% 50%, /* grass-tile */
+                       0 0; /* linear-gradient */
+  background-size: 60%, /* grass-clump */
+                   100%, /* grass-left */
+                   6%, /* sun */
+                   100%, /* grass-tile */
+                   100%; /* linear-gradient */
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat,
+                     no-repeat;
 
 }
 
@@ -35,10 +75,28 @@
                     url("../images/palm.png"),
                     url("../images/crab.png"),
                     url("../images/palm-2.png"),
-                    url("../images/beach-ball.png");
-  background-position: top center, right, right, left, left;
-  background-size: 10%, 40%, 10%, 20%, 20%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+                    url("../images/beach-ball.png"),
+                    linear-gradient(0deg, rgba(223, 201, 10, 50%) 0%,
+                    rgba(223, 201, 10, 50%) 40%,
+                    rgba(110, 145, 240, 0.5) 40%,
+                    rgba(110, 145, 240, 0.5) 60%,
+                    rgba(107, 200, 243, 0.5) 60%,
+                    rgba(107, 200, 243, 0.5) 100%);
+  background-position: top center,
+                       right,
+                       right,
+                       left,
+                       left;
+  background-size: 10%,
+                   40%,
+                  10%,
+                  20%,
+                  20%;
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat,
+                     no-repeat,
+                     no-repeat;
 
 
 }
