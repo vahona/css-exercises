@@ -71,27 +71,32 @@
 
 .lu-seal {
   background-color:  rgb(187, 236, 248);
-  background-image: url("../images/sun.png"),
+  background-image:  url("../images/sun.png"),
                     url("../images/palm.png"),
                     url("../images/crab.png"),
                     url("../images/palm-2.png"),
                     url("../images/beach-ball.png"),
                     linear-gradient(0deg, rgba(223, 201, 10, 50%) 0%,
                     rgba(223, 201, 10, 50%) 40%,
-                    rgba(110, 145, 240, 0.5) 40%,
-                    rgba(110, 145, 240, 0.5) 60%,
+                    rgba(74, 114, 223, 0.5) 40%,
+                    rgba(74, 114, 223, 0.5) 60%,
                     rgba(107, 200, 243, 0.5) 60%,
                     rgba(107, 200, 243, 0.5) 100%);
-  background-position: top center,
-                       right,
-                       right,
-                       left,
-                       left;
-  background-size: 10%,
+
+  background-position: 50% 2%,
+                       10% 10%,
+                       70% 90%,
+                       100% 100%,
+                       3% 80%,
+                       0 0;
+
+  background-size: 5%,
                    40%,
-                  10%,
-                  20%,
-                  20%;
+                   10%,
+                   40%,
+                   20%,
+                   100%;
+
   background-repeat: no-repeat,
                      no-repeat,
                      no-repeat,

@@ -47,8 +47,8 @@
 
 /* The different between 'opacity' and a 'background-color' is 'opacity' has value limited 0-1 and it is already property which define transparancy whereas, background-color` that is semi-transparent property value. */
 
-/* The different between 'display: none' and 'visibility: hidden' display-none' with display: none an element behaves like it is completely deleted you can see the structure in HTML,
+/* The different between 'display: none' and 'visibility: hidden' display-none'; with display: none an element behaves like it is completely deleted you can not see the structure in HTML,
 However, visibility: hidden doesn’t remove an element completely. It just makes the element invisible */
 
-/* We use visibility : visible because all element is there the structure */
+/* We use visibility : visible because the element visibility has an element existe  */
 
