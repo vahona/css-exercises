@@ -4,4 +4,144 @@
     Property description
   */
     /* Property example with a value */
+
+}
+
+
+/* Property name: border
+Property description:border property sets the style border of an element, it is the shorthand of some property of bordering document. */
+
+*{
+border: 100px;
+
+}
+
+/* Property name : Border-width
+Property description: border-width property sets the width of the border's element.*/
+
+*{
+
+  border-width: 100px;
+}
+
+/* Property name : Border-color
+Property description : border-color defines the color of the border.*/
+
+*{
+border-color: coral;
+
+
+}
+
+/* Property name : Border-style
+Property description : border-style defines the style of the border around the element.*/
+
+* {
+border-style: double;
+
+}
+
+/* Property name : Margin
+Property description: Margin property defines the space libre amount the four sides of a box.*/
+
+h1{
+  margin: 18px;
+
+}
+
+/* Property name : Margin-top
+Property description : margin-top property specify the margin area on top of the element */
+tr {
+margin-top: 40px;
+
+}
+
+
+
+/* Property name : Margin-right
+Property description : margin-right property specify the space on the right of the element */
+
+tr {
+  margin-right: 30px;
+
   }
+
+/* Property name : Margin-left
+Property description : margin-left property sets the space of the left elements */
+
+
+tr {
+  margin-left: 20px;
+
+  }
+/* Property name : Margin-bottom
+Property description : margin-bottom property sets the space of the the botoom of the element. */
+
+tr {
+  margin-bottom: 15px;
+
+  }
+
+  /*
+    Property name : padding
+    Property description : padding-padding property sets the spaces empty between the content and the border amount of the four sides of empty space inside of the element .
+  */
+
+  h1{
+    padding: 37px;
+  }
+
+  /*
+    Property name : padding-top
+    Property description : padding-top property sets the inside space between the content and the top line border.
+
+  */
+
+  h3 {
+    padding-top: 78px;
+  }
+
+  /*
+    Property name : padding-right
+    Property description : padding-right property sets the inside space between the content and the right line border
+  */
+
+  h4{
+    padding-right: 34px;
+  }
+
+  /*
+    Property name : padding-bottom
+    Property description : padding-bottom property sets the inside space between the content and the bottom line border
+  */
+  h1{
+
+    padding-bottom: 50px;
+  }
+
+  /*
+    Property name : padding-left
+    Property description : padding-left property sets the inside space between the content and the left line border
+  */
+
+  div{
+    padding-left: 67px;
+  }
+
+  /*
+    Property name : display
+    Property description : display  property
+  */
+
+   /*
+    Property name : box-sizing
+    Property description :box-sizing property defines the amount value of width and height which set to be the in the element.
+  */
+
+  #row{
+    box-sizing: content-box;
+  }
+
+  /* When two differently sized margins of two different boxes collide, there must be
+
+  */

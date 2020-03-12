@@ -4,7 +4,7 @@ body {
 
 }
 
-
+/*
 li > a[href*="/"] {
 
 visibility: visible;
@@ -20,12 +20,16 @@ li > a[href*="contact"]{
 
   visibility: hidden;
 }
+*/
+nav li:not(:first-child){
+  visibility: hidden;
+}
 
 
 
 
 
-[data-bg-color="yellow"],
+
 [data-bg-color="blue"],
 tr:nth-child(2),
  span
