@@ -142,6 +142,6 @@ tr {
     box-sizing: content-box;
   }
 
-  /* When two differently sized margins of two different boxes collide, there must be
+  /* When two differently sized margins of two different boxes collide, there must be collapsing position.
 
   */
