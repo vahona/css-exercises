@@ -1,0 +1,26 @@
+/* CSS, inheritance mean regulation of situation in the document if their is no value of property in css, It afects the action of the value of css property whether the property inherits by default yes or no.
+*/
+/* Property which have value inherited by default:
+1- Border-collapse
+2- Border-spacing
+3- caption-side
+4- color
+5- direcvtion
+6- empty-cells
+7- all longhand property of font and font
+8- letter-spacing
+9- list-style-type
+10- list-style-position
+11- list-style-image
+12- list-style
+13- line-height
+14- text-align
+15- text-transform
+16- visibility
+17- word-spacing
+*/
+/* the differemce between currentColor and inherit; currentcolor is useful when you want to apply the value of the color to another property which can receive the color's value whereas inherit value of color sets color but it is possible to get different color.*/
+
+/* The revert value of css resets a properyt back to it's inherited value. */
+/* The initial value of css is the first choice of the value which mean the default value */
+/* The unset value of css resets a property to its inheerited value if it i
