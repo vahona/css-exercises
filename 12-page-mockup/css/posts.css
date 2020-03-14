@@ -1,0 +1,16 @@
+
+.must{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.human{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+ a[href*="jesse"]{
+   text-decoration: none;
+   color: black;
+ }
+
