@@ -1,6 +1,5 @@
 body > nav {
   margin-block-end: -7rem;
-  text-align: center;
   margin-block-start: 1rem;
 }
 
@@ -15,6 +14,7 @@ body > nav a{
   color: white;
   text-transform: uppercase;
   text-decoration: none;
+
 }
 
 body > nav ul{
@@ -22,3 +22,4 @@ body > nav ul{
   margin: 0;
   padding: 0;
 }
+

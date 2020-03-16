@@ -7,7 +7,7 @@
 4- color
 5- direcvtion
 6- empty-cells
-7- all longhand property of font and font
+7- All longhand property of font and font
 8- letter-spacing
 9- list-style-type
 10- list-style-position
@@ -21,6 +21,12 @@
 */
 /* the differemce between currentColor and inherit; currentcolor is useful when you want to apply the value of the color to another property which can receive the color's value whereas inherit value of color sets color but it is possible to get different color.*/
 
+/* The danger of using an inherit is to overused it in a document */
 /* The revert value of css resets a properyt back to it's inherited value. */
 /* The initial value of css is the first choice of the value which mean the default value */
-/* The unset value of css resets a property to its inheerited value if it i
+/* The unset value of css resets a property to its inheerited value if it inherite from its parent*/
+/*
+The possibilities with using an ancestor or universal selector, combined with the `inherit` value:
+  -Universal
+  -Element with universal selector
+*/

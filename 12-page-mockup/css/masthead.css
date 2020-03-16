@@ -1,12 +1,16 @@
 main > header{
-  background-image:
+  background-image: linear-gradient(0deg, rgba(0,0,0,.5)0, rgba(0,0,0,.5)100%),
    url('../images/bg_desktop.jpg');
   color: white;
   text-align: center;
-  padding-block-start: 18rem;
-  padding-block-end: 18rem;
+  padding-block-start: 14rem;
+  padding-block-end: 14rem;
   background-position: center;
   box-sizing: content-box;
+  border: solid;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+ max-height: 30px;
 }
 
 main > header h2{
@@ -18,3 +22,4 @@ main > header p{
   margin: 0;
   font-size: 1rem;
 }
+

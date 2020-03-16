@@ -2,10 +2,12 @@ html{
   font-size: 15px;
   font-family: 'Times New Roman', Times, serif;
   line-height: 1.25;
+  border: solid 1px;
+
 }
 
 
-body > header{
+body > p{
   text-align: center;
 }
 
@@ -14,8 +16,22 @@ body > header a{
   color: white;
 
 }
-body > header h1{
+body > header h1 {
   font-weight: 600;
   font-size: 1.5rem;
   color: white;
+  margin-left: 25px;
+
+}
+
+.link > li{
+text-align: right;
+margin-left: 4px;
+display: inline;
+}
+
+ul.link{
+  text-align: right;
+  margin-right: 15px;
+  position: 90% 10%;
 }
