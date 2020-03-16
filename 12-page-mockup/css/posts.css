@@ -14,3 +14,12 @@
    color: black;
  }
 
+ article{
+   box-sizing: content-box;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50rem;
+  height: 50rem;
+}

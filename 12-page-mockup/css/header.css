@@ -1,98 +1,21 @@
-body{
-  border:solid 1px;
-  box-sizing: content-box;
-  margin: 1rem;
-  margin-right: 339px;
-  height: 40rem;
-  width: 50rem;
-
-}
-
-header {
-  background-image:
-   url("../images/bg_desktop.jpg");
-  background-position: 50% 20%;
-  color:white;
-  background-size: 50rem;
-  background-repeat: no-repeat;
-  width: 50rem;
-  height: 20rem;
-  margin-bottom: 8px;
-  text-decoration: none;
-
-}
-h2{
-  color: white;
-  text-align: left;
-  display: inline;
-  margin-top: 3px;
-
-
-
-
+html{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.25;
 }
 
 
-h2 a{
-  color: white;
-  text-decoration: none;
-
-}
-
-
-
-
-h2{
-  margin-right: 20rem;
-  margin-bottom: 1rem;
-
-
-}
-
-
-h1{
+body > header{
   text-align: center;
-  color: white;
-  margin-top: 7rem;
-
 }
 
-
-
-h2{
-  margin-right: 20rem;
-  margin-top: 3em;
-  margin-left: 10px;
-
-
-}
-
-
-h1{
-  text-align: center;
-  color: white;
-  margin-top: 7rem;
-}
-
-
-.div-1 a{
+body > header a{
   text-decoration: none;
   color: white;
-  margin-right: 10px;
 
 }
-
-
-.div-1 a{
+body > header h1{
+  font-weight: 600;
+  font-size: 1.5rem;
   color: white;
-  text-align: right;
-  display: inline;
-  margin-left: 2px;
-
-
-
-}
-
-header > p{
-  text-align: center;
 }
