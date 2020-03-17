@@ -75,6 +75,7 @@ img{
     border-bottom-style: solid grey;
 
 
+
   }
   footer ul {
     list-style: none;
@@ -82,6 +83,7 @@ img{
     padding: 0;
     margin-block: 2rem;
     margin-inline: 0;
+
   }
 
 footer li {
@@ -93,3 +95,5 @@ footer li:not(:first-child):not(:last-child){
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
 }
+
+
