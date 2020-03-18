@@ -11,6 +11,7 @@ The fonction that we can use in content :
 - linear-gradient fonction
 - conter
 - attr(value string)
+
 */
 
 
@@ -23,11 +24,13 @@ The various pseudo-element in css:
   ::after
   ::before
   ::placehold
+  ::backdrop
 
 */
 
 /*
 We would want to use pseudo-element because it is useful to style a specific element.
+
 */
 
 /* COUNTERS */

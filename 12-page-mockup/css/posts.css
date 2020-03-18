@@ -3,6 +3,8 @@
  a[href*="jesse"]{
    text-decoration: none;
    color: black;
+   font-size: 15px;
+
  }
 
  article{
@@ -19,4 +21,14 @@ article > nav p{
     color: black;
     font-size: 25px;
 
+}
+
+article > nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+small{
+  font-size: 15px;
 }
