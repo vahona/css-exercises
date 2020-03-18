@@ -18,3 +18,26 @@
     2. Major clause `<h3>` in a new `<section>`
     …
 */
+
+
+
+body {
+  counter-reset: section;
+}
+
+h3::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+
+
+section {
+  counter-reset: multi-counters;
+}
+
+h4::before {
+  counter-increment: multi-counters;
+  content:"1." counters(multi-counters, ".") ": ";
+}
+
+
