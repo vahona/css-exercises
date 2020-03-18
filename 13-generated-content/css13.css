@@ -1,0 +1,58 @@
+/* PSEUDO-ELEMENTS*/
+
+/* The special property for pseudo element is content.
+
+*/
+
+
+/*
+The fonction that we can use in content :
+- url fonction
+- linear-gradient fonction
+- conter
+- attr(value string)
+*/
+
+
+/*
+
+The various pseudo-element in css:
+  ::first-letter
+  ::first-line
+  ::selection
+  ::after
+  ::before
+  ::placehold
+
+*/
+
+/*
+We would want to use pseudo-element because it is useful to style a specific element.
+*/
+
+/* COUNTERS */
+/* We use property value including a property counter short-hand and all counter long-hand .*/
+
+/* We can reset a counter by giving a number of value or a keyword */
+
+/*  Counters are useful for:
+    -Numbering or alphabetise automatically a element
+    -Returning developer defined string
+
+*/
+/*
+ Property only related to the list:
+   -list-style
+   -list-style-image
+   -list-style-position
+   -list-style-type
+
+*/
+
+/* Types of bullet :<ul></ul> style and <li></Li>
+
+*/
+
+/* Any groupe of element can be styled look like a list like <div>, <span>
+
+*/
