@@ -3,14 +3,14 @@ main > header{
    url('../images/bg_desktop.jpg');
   color: white;
   text-align: center;
-  padding-block-start: 14rem;
-  padding-block-end: 14rem;
+  padding-block-start: 13rem;
+  padding-block-end: 13rem;
   background-position: center;
   box-sizing: content-box;
   border: solid;
   background-size: 100% auto;
   background-repeat: no-repeat;
- max-height: 30px;
+
 }
 
 main > header h2{
@@ -22,4 +22,5 @@ main > header p{
   margin: 0;
   font-size: 1rem;
 }
+
 

@@ -70,7 +70,7 @@ img{
   */
   footer{
     text-align: center;
-    padding-block-start: 7.5rem;
+    padding-block-start: 0rem;
     scroll-padding-block-end: 7.5rem;
     border-bottom-style: solid grey;
 
@@ -81,8 +81,7 @@ img{
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-block: 2rem;
-    margin-inline: 0;
+
 
   }
 

@@ -1,24 +1,22 @@
 
-.must{
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
-}
-.human{
-  text-decoration: none;
-  color: black;
-  font-size: 25px;
-}
+
  a[href*="jesse"]{
    text-decoration: none;
    color: black;
  }
 
  article{
-   box-sizing: content-box;
-  margin: auto;
+  box-sizing: content-box;
   margin-left: auto;
   margin-right: auto;
   width: 50rem;
   height: 7rem;
+  margin-top: 7rem;
+
+}
+article > nav p{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
 }
