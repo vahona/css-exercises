@@ -1,9 +1,37 @@
 /* Styles for all mediums go here */
 @media all {
 
+body{
+
+}
+
 }
 
 /* Only styles for printers please */
 @media print {
+
+  a[href]::after {
+    content: "(" attr(url="https://en.wikipedia.org/wiki/Tenrec") " )";
+  }
+
+  abbr:after, acronym:after{
+    content: " (" attr(title="Cascading StyleSheets") ") ";
+
+}
+ #header h1{
+font-size: 2rem;
+}
+
+img::after{
+  content: " (" attr(src="https://en.wikipedia.org/wiki/William_L._Marcy#State_politics") ")";
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+blockquote{
+  page-break-inside: avoid;
+  content: "("attr(cite="https://en.wikipedia.org/wiki/William_L._Marcy#State_politics")")";
+}
 
 }
