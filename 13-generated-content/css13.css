@@ -3,7 +3,10 @@
 /* The special property for pseudo element is content.
 
 */
+/*
 
+
+*/
 
 /*
 The fonction that we can use in content :
@@ -41,21 +44,20 @@ We would want to use pseudo-element because it is useful to style a specific ele
 /*  Counters are useful for:
     -Numbering or alphabetise automatically a element
     -Returning developer defined string
+    -Reseting a element
+    -More flexible for changement
 
 */
 /*
  Property only related to the list:
    -list-style
-   -list-style-image
-   -list-style-position
-   -list-style-type
+   -list-style-image: url()
+   -list-style-position: (inside, outside)
+   -list-style-type : Square, circle, disc, " emojy"
+   -
 
 */
 
-/* Types of bullet :<ul></ul> style and <li></Li>
-
-*/
-
-/* Any groupe of element can be styled look like a list like <div>, <span>
+/* Any groupe of element can be styled look like a list by putting display-items property
 
 */

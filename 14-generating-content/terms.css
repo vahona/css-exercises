@@ -18,6 +18,7 @@
     2. Major clause `<h3>` in a new `<section>`
     …
 */
+
 h3{
   font-size: 2rem;
 }
@@ -41,6 +42,7 @@ body {
   max-width: calc(2000px * 0.5);
 }
 
+
 h3::before {
   counter-increment: section;
   content: "Section " counter(section) ": ";
@@ -52,9 +54,7 @@ h3 {
 
 
 
-section {
-  counter-reset: multi-counters;
-}
+
 
 h4::before {
   counter-increment: h4;
@@ -89,3 +89,16 @@ li> ol> li::before {
   content: "Section " counter(letter, lower-roman) ". " ". " ;
 }
 
+/*
+
+
+section > ol > li::before{
+  counter-increment:content "major clause" content "clause" content "ol"  content "li";
+  content: counter(h3)". ",
+           counter(h4)". ",
+           counter(ol)".",
+           counter(li)". ";
+}
+
+
+*/
