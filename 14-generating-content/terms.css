@@ -38,18 +38,18 @@ ol > *{
 
 
 body {
-  counter-reset: section;
+  counter-reset: major-clause;
   max-width: calc(2000px * 0.5);
 }
 
 
 h3::before {
-  counter-increment: section;
-  content: "Section " counter(section) ": ";
+  counter-increment: major-clause;
+  content: "Section " counter(major-clause) ": ";
 }
 
 h3 {
-  counter-reset: h4;
+  counter-reset:clause;
 }
 
 
@@ -57,8 +57,9 @@ h3 {
 
 
 h4::before {
-  counter-increment: h4;
-  content:"Section" counter(section)". " counter(h4)". " ;
+  counter-increment: clause;
+  content:"Section" counter(major-clause)". "
+                    counter(clause)". " ;
 }
 
 ol {
@@ -68,11 +69,14 @@ list-style-type: none;
 }
 
 li::before{
-content:"Section"  counter(section, none)". " counter(letter, lower-alpha)". " ;
+content:"Section" counter(major-clause)". "
+                  counter(clause)". "
+                  counter(letter, lower-alpha)". " ;
 counter-increment: letter;
 }
 body{
   font-size: 2rem;
+
 
 }
 
@@ -81,12 +85,15 @@ body{
 
 
 li > ol {
-  counter-reset: letter;
+  counter-reset: list;
   list-style-type: none;
 }
 li> ol> li::before {
-  counter-increment: letter;
-  content: "Section " counter(letter, lower-roman) ". " ". " ;
+  counter-increment: list;
+  content: "Section " counter(major-clause)"."
+                      counter(clause)"."
+                      counter(letter, lower-alpha)"."
+                      counter(list, lower-roman) ". " ". " ;
 }
 
 /*
@@ -103,3 +110,5 @@ section > ol > li::before{
 
 
 */
+
+

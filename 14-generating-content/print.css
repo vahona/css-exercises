@@ -1,37 +1,43 @@
 /* Styles for all mediums go here */
+
 @media all {
 
-body{
+body {
+size: 10pt;
+font-family: Georgia, 'Times New Roman', Times, serif
+}
+
 
 }
 
-}
 
 /* Only styles for printers please */
+
 @media print {
 
   a[href]::after {
-    content: "(" attr(url="https://en.wikipedia.org/wiki/Tenrec") " )";
+    content: " [" attr(href)" ]";
+    font-weight: normal;
+    word-break: break-word;
   }
 
-  abbr:after, acronym:after{
-    content: " (" attr(title="Cascading StyleSheets") ") ";
+  abbr::after, acronym::after{
+    content: " (" attr(title) ") ";
 
-}
- #header h1{
-font-size: 2rem;
-}
+  }
+  #header h1{
+  font-size: 2rem;
+  }
 
-img::after{
-  content: " (" attr(src="https://en.wikipedia.org/wiki/William_L._Marcy#State_politics") ")";
+  img::after{
   display: block;
-  width: 100px;
-  height: 100px;
-}
+  width: 10pt;
+  height: 10pt;
+  }
 
-blockquote{
+  blockquote{
   page-break-inside: avoid;
-  content: "("attr(cite="https://en.wikipedia.org/wiki/William_L._Marcy#State_politics")")";
+  content: "("attr(cite)")";
+  }
 }
 
-}
