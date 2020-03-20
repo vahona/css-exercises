@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <link rel="stylesheet" href="table.css">
+</head>
+<header>
+  <h1>
+  Table
+  </h1>
+</header>
+<body>
+  <main>
+    <h2>
+      Table styling
+    </h2>
+    <h4>
+      Example
+    </h4>
+  <table>
+    <caption> Different kind of fruit </caption>
+    <thead>
+      <tr>
+        <th scope="col" id="header_fruit"> Fruit</th>
+        <th scope="col" id="header_color"> Color</th>
+        <th scope="col" id="header_type"> Type</th>
+        <th scope="col" id="header_nutrition"> Nutrition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th headers="header_color" scope="row" id="apple">Apple</th>
+        <td headers="row_apple header_color"> lihgt yelow </td>
+        <td headers="row_apple header_type"> </td>
+        <td headers="row_apple header_nutrition"> 95 calories</td>
+      </tr>
+      <tr>
+        <th headers="headder_fruit" scope="row" id="lemon">Lemon</th>
+        <td headers="row_lemon header_color"> yelow </td>
+        <td headers="row_lemon header_type"> Sour</td>
+        <td headers="row_lemon header_nutrition"> Vitamine C 22 calories</td>
+      </tr>
+    </tbody>
+  </table>
+    <p>
+      The default value of each property :
+    </p>
+    <ul>
+      <li> table-layout:auto </li>
+      <li> border-spacing: 2px </li>
+      <li> border-collapse: separate </li>
+      <li> caption-side: top </li>
+      <li> empty-cells: show </li>
+    </ul>
+    <p>
+      The HTML element correspondant to these display value:
+    </p>
+    <ul>
+      <li>table value corresponds of <code>&lt;table&gt;</code>  element </li>
+      <li>table-row-group value corresponds of <code>&lt;tbody&gt;</code> element </li>
+      <li>table-header-group value corresponds of <code>&lt;thead&gt;</code> element </li>
+      <li>table-footer-group value corresponds of <code>&lt;tfooter&gt;</code> element </li>
+      <li>table-row value corresponds of <code>&lt;tr&gt;</code> element </li>
+      <li>table-cell value corresponds of <code>&lt;td&gt;</code> element </li>
+      <li>table-column-group value corresponds of <code>&lt;colgroup&gt;</code> element </li>
+      <li>table-column value corresponds of <code>&lt;col&gt;</code> element </li>
+      <li>table-caption value corresponds of <code>&lt;caption&gt;</code> element </li>
+    </ul>
+    <ol>
+      <li> Border-spacing can work effectively if only border-collapse is separate. </li>
+      <li>Downside of using various table "table" value of display:</li>
+    </ol>
+    <h4>
+    The difference between <q> table-layout: fixed </q> and <q>table-layout: auto</q>
+    </h4>
+    <ul>
+      <li>
+        Table-layout:<q> auto </q> sets automatically the table layout on the browser.
+      </li>
+      <li>
+        Table-layout:<q> fixed </q> sets the fixed table-layout.
+      </li>
+    </ul>
+    <p>
+      Yes, I can use border-spacing because it sets the space between two cell in element.
+    </p>
+    <p>
+      Empty-cells work effectively only when <q>border-collapse</q> property is separate.
+    </p>
+  </main>
+</body>
+</html>
