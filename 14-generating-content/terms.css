@@ -92,6 +92,7 @@ li> ol> li::before {
 /*
 
 
+
 section > ol > li::before{
   counter-increment:content "major clause" content "clause" content "ol"  content "li";
   content: counter(h3)". ",
