@@ -1,0 +1,40 @@
+/* The default value of each property */
+
+/*
+
+overflow: visible
+ clip: auto
+ clip-path: none
+ text-overflow: ellipsis
+
+*/
+
+/*  We would use overlow property because it define What should be the best content if there is an overflow in the document.
+
+  We would use clip property define the part of an element which we want to show, and it is only on elements with position absolute or position fixed.
+
+  We would use clip-path to creat a clipping of region which sets what part of en element sould be shown.
+
+  We would use text-overflow: ellipsis property value for presenting of what sing is used of hidding content ovelfow in a document.
+
+  They are useful because they can set how overflow presented in document.
+
+*/
+
+/*
+
+Before these property work effectively we need to set width or height.
+
+*/
+/*
+  The browser handle the value of visible of overflow in the document.
+
+*/
+
+/*
+  Ellipsis is a way that we can show the overflow in a document by signal, whereas Ellipse is an image or shape of thing which you want to put in a document.
+
+ */
+
+
+  /* Text overflow only can happen on bloc or inline-bloc. */
