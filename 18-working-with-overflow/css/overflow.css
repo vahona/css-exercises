@@ -24,8 +24,13 @@ clip-path: circle(9% at 62% 24%);
 }
 
 #overclip .example{
-  clip-path: circle(30% at 50% 49%);
   overflow: hidden;
+
+}
+
+#overclip img{
+  clip-path: circle(10% at 64% 25%);
+  overflow: auto;
 }
 
 #overflow_ellipsis .example{
