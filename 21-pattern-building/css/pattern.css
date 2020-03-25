@@ -1,0 +1,76 @@
+
+
+.icon_left::before {
+  background-image: url("../icon-facebook.png");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  content: "";
+  margin-right: 1rem;
+
+
+
+
+}
+
+
+.icon_left{
+  border: none;
+  background-color: lavender;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+[class~=icon_left] {
+  text-decoration: none;
+  color: red;
+  font-size: 30px;
+
+
+}
+
+
+.icon_right::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url("../icon-facebook.png");
+  background-size: contain;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 1rem;
+
+
+}
+
+
+[class~=icon_right] {
+  text-decoration: none;
+  color:rgb(15, 15, 15);
+  font-size: 30px;
+
+
+
+
+}
+
+.icon_right {
+  border: none;
+  background-color: lavender;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+
+

@@ -1,0 +1,29 @@
+
+nav.breadcrumb {
+  padding: 9px 12px;
+  list-style: none;
+
+}
+
+nav.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+}
+
+
+nav.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(87, 8, 8);
+  content: ">\00a0";
+}
+
+
+nav.breadcrumb li a {
+  color: #094e03f1;
+  text-decoration: none;
+}
+
+
+nav.breadcrumb li a:hover {
+  color: #01447e;
+}
