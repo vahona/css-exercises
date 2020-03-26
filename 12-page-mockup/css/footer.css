@@ -73,6 +73,9 @@ img{
     padding-block-start: 0rem;
     scroll-padding-block-end: 7.5rem;
     border-bottom-style: solid grey;
+    border-top: gray 1px solid;
+    padding-top: 25px;
+
 
 
 

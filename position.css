@@ -1,0 +1,40 @@
+/* The default value of position is static */
+
+/* The properties we need to supply when we use non-default position value are float and display and value (top, right, bottom and left)
+
+*/
+
+/*  The inferred `display` value of an element that has been  is positioned inline-block */
+
+/* Position fixed value still maintains a box in the flow of the document. */
+
+
+/* Fixed and sticky positioning :
+
+  - Sticky position always creates stacking position, and it behaves like a relative untill the viewport meets a specified position.
+  - Fixed positioning always creates stacking position, and if the document is printed, the element appers on the same spot on each page.
+
+  */
+
+  /* When positioning an element *absolutely*;
+    - If the value of coordinates is not auto, it create stacking context. The value top, right, bottom and left determine the final position of element.
+
+  */
+
+
+  /*  The absolute positioned layouts useful for:
+
+    -There is no space created for absolute in the page layout.
+    -
+  */
+
+  /*
+
+
+  */
+
+
+  /*
+     CSS's stacking context is a three dimention conceptualization of an HTML elements along imaginary z-axis relative to a user facing the viewport (the area being currently viewed) or web page.
+
+  */
