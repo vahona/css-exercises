@@ -1,0 +1,51 @@
+
+
+section:nth-of-type(2) .container{
+  border: gray solid 1px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+section:nth-of-type(2) .container .circle:first-of-type {
+ width: 200px;
+ height: 200px;
+ left: 5.92rem;
+ right: 0;
+ bottom: 0;
+ position: relative;
+ top: 5.3rem;
+
+}
+
+section:nth-of-type(2) .container .circle:nth-of-type(2){
+  width: 200px;
+  height: 200px;
+  left: 6rem;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  top: -20rem;
+
+}
+section:nth-of-type(2) .container .circle:nth-of-type(3){
+  width: 200px;
+  height: 200px;
+  left: -6.5rem;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  top: -20rem;
+}
+
+section:nth-of-type(2) .container .circle:last-of-type{
+  width: 200px;
+  height: 200px;
+  left: -6.4rem;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  top: -45.2rem
+
+}

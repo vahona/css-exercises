@@ -1,0 +1,47 @@
+ section:first-of-type .container{
+width: 200px;
+height: 220px;
+border: gray 1px solid;
+position: relative;
+
+
+}
+section:first-of-type .container .pipe{
+  width: 50px;
+  height: 82px;
+  position: absolute;
+  top: 9.6rem;
+
+
+
+
+}
+
+ section:first-of-type .container .circle{
+  width: 50px;
+  height: 82px;
+  z-index: auto;
+  position:absolute;
+  top: 9.7rem;
+  bottom: 40;
+  left: 150px;
+
+
+
+}
+
+section:first-of-type .container .rect{
+width: 50px;
+height: 82px;
+position: absolute;
+top: -1rem
+
+}
+
+section:first-of-type .container .bar{
+  width: 50px;
+  height: 82px;
+  position: absolute;
+  top: -1rem;
+  right:0.01rem
+}
