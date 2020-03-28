@@ -1,4 +1,4 @@
- section:first-of-type .container{
+ section:first-of-type div{
 width: 200px;
 height: 220px;
 border: gray 1px solid;
@@ -6,7 +6,7 @@ position: relative;
 
 
 }
-section:first-of-type .container .pipe{
+section:first-of-type div .pipe{
   width: 50px;
   height: 82px;
   position: absolute;
@@ -17,7 +17,7 @@ section:first-of-type .container .pipe{
 
 }
 
- section:first-of-type .container .circle{
+ section:first-of-type div .circle{
   width: 50px;
   height: 82px;
   z-index: auto;
@@ -30,7 +30,7 @@ section:first-of-type .container .pipe{
 
 }
 
-section:first-of-type .container .rect{
+section:first-of-type div .rect{
 width: 50px;
 height: 82px;
 position: absolute;
@@ -38,7 +38,7 @@ top: -1rem
 
 }
 
-section:first-of-type .container .bar{
+section:first-of-type div .bar{
   width: 50px;
   height: 82px;
   position: absolute;

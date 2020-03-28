@@ -11,11 +11,9 @@ section:nth-of-type(2) .container{
 section:nth-of-type(2) .container .circle:first-of-type {
  width: 200px;
  height: 200px;
- left: 5.92rem;
- right: 0;
- bottom: 0;
+ right: -50%;
+ bottom: -42.5%;
  position: relative;
- top: 5.3rem;
 
 }
 
@@ -32,7 +30,7 @@ section:nth-of-type(2) .container .circle:nth-of-type(2){
 section:nth-of-type(2) .container .circle:nth-of-type(3){
   width: 200px;
   height: 200px;
-  left: -6.5rem;
+  left: -6.2rem;
   right: 0;
   bottom: 0;
   position: relative;
