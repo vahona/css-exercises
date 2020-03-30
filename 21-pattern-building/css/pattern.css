@@ -1,73 +1,82 @@
 
+.icon{
+display: inline-block;
+background-color: lavender;
+padding: 1rem;
+font-size: 1rem;
+line-height: 1;
+text-decoration: none;
+font-weight: 700;
+text-transform: uppercase;
+position: relative;
+padding-left: 3rem;
+color: red;
+}
+
 
 .icon_left::before {
   background-image: url("../icon-facebook.png");
   background-size: contain;
-  width: 30px;
-  height: 30px;
-  border-radius: 60%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
   background-repeat: no-repeat;
-  display: inline-block;
+  display: block;
   content: "";
   margin-right: 1rem;
+  top: 50%;
+  left: 0.75rem;
+  position: absolute;
+  font-size: 1rem;
+  margin-top: -0.75rem;
+
+
 
 
 
 
 }
-
 
 .icon_left{
-  border: none;
-  background-color: lavender;
-  display: inline-block;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 3rem;
 }
 
+
 [class~=icon_left] {
-  text-decoration: none;
-  color: red;
   font-size: 30px;
 
 
 }
 
-
-.icon_right::after {
-  content: "";
-  width: 30px;
-  height: 30px;
-  background-image: url("../icon-facebook.png");
-  background-size: contain;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  margin-left: 1rem;
+.icon_right::before {
+background-image: url("../icon-facebook.png");
+background-size: contain;
+width: 1.5rem;
+height: 1.5rem;
+border-radius: 50%;
+background-repeat: no-repeat;
+display: block;
+content: "";
+margin-left: 1rem;
+top: 50%;
+right: 0.75rem;
+position: absolute;
+font-size: 1rem;
+margin-top: -0.75rem;
 
 
 }
+
 
 
 [class~=icon_right] {
-  text-decoration: none;
-  color:rgb(15, 15, 15);
   font-size: 30px;
-
-}
-
-.icon_right {
-  border: none;
-  background-color: lavender;
-  display: inline-block;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   padding-left: 1rem;
-  padding-right: 1rem;
 
 }
 
 
 
+.icon_right{
+  padding-right: 3rem;
+}

@@ -51,3 +51,10 @@ main > header p{
     margin-top: 1.5rem;
 
   }
+
+
+  @media (max-width:56.25rem){
+   body > header {
+
+    }
+  }
