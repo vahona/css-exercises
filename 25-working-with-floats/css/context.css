@@ -1,0 +1,29 @@
+
+
+section:first-of-type .container img[src*=inspector]{
+  float: left;
+  padding-right: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+section:first-of-type .container img[src*=doctor]{
+  float: right;
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+
+}
+
+section:first-of-type .container p:nth-of-type(2){
+  clear:left;
+}
+
+
+section:first-of-type .container p{
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+
+
+section:nth-of-type(2) .container p:nth-of-type(2){
+  clear:right;
+}
