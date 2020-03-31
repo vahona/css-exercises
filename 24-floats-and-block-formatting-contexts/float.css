@@ -15,13 +15,13 @@ The default value of float is none.
 
   /*
 
-     Rule associated with a floated item in terms of source order is size of the items, Width and height.
+     Rule associated with a floated item in terms of source order is size of the items, the element must be before of any element.
 
   */
 
   /*
 
-     I you float other elements besides images.
+     I can float other elements besides images sometimes you have to change display property.
 
   */
 
@@ -33,14 +33,14 @@ The default value of float is none.
 
   /*
 
-   Block formatting context is an section of  css appearances which makes the web to be well organized.
+   Block formatting context set the rule countainers to be its real countainer.
 
    */
 
    /*
 
-   The property which needed to set when we use 'clear' a float by creating a block formatting context on the parent are: display and overflow
+   The property which needed to set when we use 'clear' a float by creating a block formatting context on the parent are: display, overflow  and position
 
    */
 
-    /* May be */
+    /* It depends on the fact */
