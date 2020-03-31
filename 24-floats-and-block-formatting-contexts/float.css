@@ -1,0 +1,46 @@
+
+/*
+
+Float: Floaat is a property allow the element on the left or right side of its container allowing the text elements wrap around it.
+
+The default value of float is none.
+
+/*
+
+  Clear sets whether an element must be moved below.
+
+  The possible value of clear: left, right, none, both.
+
+  */
+
+  /*
+
+     Rule associated with a floated item in terms of source order is size of the items, Width and height.
+
+  */
+
+  /*
+
+     I you float other elements besides images.
+
+  */
+
+
+  /*
+   There is a way to create a two-column layout with floats,
+
+   */
+
+  /*
+
+   Block formatting context is an section of  css appearances which makes the web to be well organized.
+
+   */
+
+   /*
+
+   The property which needed to set when we use 'clear' a float by creating a block formatting context on the parent are: display and overflow
+
+   */
+
+    /* May be */
