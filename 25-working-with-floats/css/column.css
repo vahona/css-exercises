@@ -1,5 +1,42 @@
-section:nth-of-type(2) .container p{
-  float: right;
+
+section:nth-child(2) div .container{
+  clear: both;
+  font-weight: bold;
 }
 
-section:nth-of-type(2) .container
+section:nth-child(2) div .container img[src*=doctor]{
+   float: left;
+   clear: left;
+
+}
+
+section:nth-child(2) div .container img[src*=inspector]{
+  float: left;
+  margin-right: 2rem;
+}
+
+section:nth-child(2) .container  div:last-of-type p{
+  clear: right;
+
+}
+
+section:nth-child(2) .container div:nth-child(2) p{
+  clear: right;
+  padding-left: 2rem;
+
+}
+
+
+section:nth-child(2) div .container p:first-of-type{
+  padding-left: 2rem;
+
+}
+
+section:nth-child(2) .container div:first-of-type{
+  overflow: hidden;
+}
+
+
+section:nth-child(2) .container p{
+  margin-left: 250px;
+}
