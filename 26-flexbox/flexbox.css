@@ -1,0 +1,43 @@
+/*  The order value of property flex 1, 2, and auto :
+  1: represent flex grow,
+  2: represent flex shrink,
+  auto : represent width of flex basis
+
+  */
+
+  /*
+
+  The value required of flex-wrap before we can use align-content is wrap .
+
+  */
+
+  /*
+  Align-content different to align-items : Align-content sets the space between the items around the content whereas align-items sets the the direction for all the items or groupe of the items and it apply to all of the children of the element.
+
+  */
+
+  /*
+    The property which overrides is the flex item's align-self.
+
+  */
+
+
+  /*
+   The other commonly-used box model property which is similar to flex-basis is align-self.
+
+  */
+
+
+  /*
+    The property which can change the whole order of the flex at the container level is flex-direction
+
+  */
+
+  /*
+  The possible way to make some space between each of our three flex items in a flex column:
+  -Using aligne-items property
+  -Using aligne-self property
+
+
+  */
+
