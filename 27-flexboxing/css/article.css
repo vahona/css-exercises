@@ -1,3 +1,15 @@
 article {
   max-width: 50rem;
 }
+/* */
+
+main > article {
+justify-content: center;
+display: flex;
+margin: 2rem;
+
+}
+
+main article {
+
+}
