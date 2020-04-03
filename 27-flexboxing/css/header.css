@@ -13,18 +13,16 @@ body > header a {
 }
 /* */
 
-main > header{
-  text-align: center;
-  margin-top: 7rem;
-}
+
 
 header > h1 a{
   margin: 1rem;
-  flex-direction: row;
 
 }
 
 body > main {
-  margin-top: -10rem;
+  margin-top: -15rem;
 }
+
+
 

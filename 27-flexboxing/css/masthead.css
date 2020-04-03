@@ -11,7 +11,7 @@ main > header {
   color: #fff;
   padding: 4rem 0;
   box-sizing: border-box;
-  min-height: 50vh;
+  min-height: 30rem;
 
 }
 
@@ -24,5 +24,12 @@ main > header > p {
   margin: 0;
 }
 /* */
+main > header {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 }
