@@ -24,6 +24,6 @@ By default, columns grid have 1 column.
 
   */
 
-  /* We can specify a minmum height for grid row by setting minmax (auto <flex>). */
+  /* We can specify a minmum height for grid row by setting grid-auto-row: minmax (min-content, max-content <flex>). */
 
 
