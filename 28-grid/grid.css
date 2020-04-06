@@ -1,0 +1,29 @@
+/*
+By default, columns grid have 1 column.
+
+*/
+
+/* Differences between Flexbox and Grid:
+  -Flexbox can push items away.
+  -Grid is much stronger than flexbox by having a space occupying feature.
+  -Flexbox allow the the elements to wrap, but it does not pricese where exactly the place of the items
+  -Grid can declare the size of row and column of the items and set the place of the items pricesly and it allow us to place elememts wherever we want to set.
+  -Grid is define on the parent element.
+  -Flexbox, most of the layout happen on the children
+
+  */
+
+  /*
+    I would use grid rather than flexbox because grid much stronger than flexbox, It is specific and pricese.
+
+  */
+  /*
+    More concise to write grid-template-columns: 10rem 10rem 10rem 10rem:
+    -grid-template-columns: repeat(4, 10rem)
+    -grid-template-columns:
+
+  */
+
+  /* We can specify a minmum height for grid row by setting minmax (auto <flex>). */
+
+
