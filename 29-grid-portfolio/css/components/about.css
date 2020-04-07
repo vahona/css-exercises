@@ -1,3 +1,6 @@
 .about {
+  display: grid;
+  grid-template-columns: 2fr 4fr 5.8fr;
+  margin-bottom: 10rem;
 
 }

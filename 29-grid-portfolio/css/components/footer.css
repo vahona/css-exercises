@@ -11,13 +11,13 @@ body > footer p {
 
 body > footer a {
   color: #fff;
+  text-decoration: none;
 
 
 }
 body > footer p:nth-child(2) {
   float: right;
-  margin-top: -2rem;
-  text-decoration: none;
+  margin-top: -1.4rem;
 }
 
 body > footer a:hover {
