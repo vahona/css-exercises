@@ -1,4 +1,10 @@
 .post {
+  display: grid;
+  grid-template-areas: "blank header header header header header"
+                          "footer content content content content content";
+  grid-template-columns: repeat(6, 2fr);
+  grid-gap: 10px;
+
 
 }
 
@@ -7,18 +13,26 @@
 }
 
 .post header {
+ display: grid;
+ grid-area: header;
 
 }
 
-.post_content {
 
+.post_content {
+  display: grid;
+  grid-area: content;
 }
 
 /* This element doubles as the post meta block. Links, metadata, etc */
 .post footer {
   font-size: 0.75rem;
+  grid-area: footer;
+  margin-top: 1rem;
 }
-
+ main > article > footer:last-of-type .a11y{
+  margin-top: 6rem;
+}
 .post_date {
   margin: 0;
 }
@@ -52,6 +66,7 @@
 
 .post_sharing p {
   margin: 0;
+
 }
 
 .post_sharing::before {
@@ -62,4 +77,14 @@
   width: 1rem;
   height: 1px;
   background-color: #4d4d4d;
+}
+/* */
+main > header:first-of-type{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-column-gap: 1rem;
+
+}
+header h2{
+  grid-column: 2 / 6;
 }
