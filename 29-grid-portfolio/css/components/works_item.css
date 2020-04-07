@@ -24,7 +24,10 @@
   margin: 0;
   padding: 0;
   margin-left: -1rem;
-display: flex;
+  display: grid;
+  grid-template-columns: 1px 1px 1px 1px;
+  grid-column-gap: 20px;
+
 
 }
 
