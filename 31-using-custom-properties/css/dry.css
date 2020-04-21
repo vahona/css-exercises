@@ -1,18 +1,27 @@
+:root {
+  --width-value: 20px;
+  --hight-set:20px;
+  --content-set: (item);
+  --transition-set:1s;
+  --background-set: rgb(63, 63, 63);
+
+}
 
 
 #dry .grid {
   display: inline-grid;
   grid-template-columns: repeat(10, 20px);
+
 }
 
 #dry a {
   display: block;
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: var(--width-value);
+  height: var(--hight-set);
   background-color: rgb(63, 63, 63);
-  transition: background-color 1s;
-  counter-increment: item;
+  transition: background-color var(--transition-set);
+  counter-increment: var(--content-set);
 }
 
 #dry a:hover {
@@ -20,17 +29,17 @@
 }
 
 #dry a::before {
-  content: counter(item);
+  content:counter(var(--content-set));
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;
+  width: var(--width-value);
   text-align: center;
   font-size: 10px;
-  line-height: 20px;
+  line-height: var(--hight-set);
   font-weight: 700;
-  color: rgb(63, 63, 63);
-  transition: color 1s;
+  color:/* rgb(63, 63, 63)*/ var(--background-set);
+  transition: color var(--transition-set);
 }
 
 #dry a:hover::before {

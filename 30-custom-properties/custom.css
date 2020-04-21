@@ -2,25 +2,30 @@
 The racters we *have* to use when defining a Custom Property's name are:
   -double dashes before name (--)
   -underscore (_)
-  -dashe between tow word
   -""
   -[]
   -$
+  -number
 
   */
 
    /*
     The characters can't we use in a Custom Property name:
-    -star (*)
-    -slash (/)
+    -space
+    -fullstop
    */
+
    /*
     Possible values can we assign to a new Custom Property:
       -Value that can be used in another declaration var() fonction.
+      -number
+      -text
   */
 
   /* It is useful to create Custom Properties using the `:root` or `html` selector when we wante to set a values of elements in our document but we do not want to reapeat ourself.
    It is not useful when we want to set a different values of specific element.
+   -write less code
+   - 1 point of controle
    */
 
    /* After we've defined a new Custom Property, we can recall or use that Custom Property by using a link between two property. The function that we can use is var().
@@ -32,7 +37,8 @@ The racters we *have* to use when defining a Custom Property's name are:
       -Cascading order
       -Inheritance
       -Internal priority
-      -!Important
+      -nesting
+      -use @media
 
    */
 
@@ -41,7 +47,7 @@ The racters we *have* to use when defining a Custom Property's name are:
 
    */
 
-   /* The only aspect (or part) of CSS syntax that we can use Custom Properties for is cascading variable.
+   /* The only aspect (or part) of CSS syntax that we can use Custom Properties for is declaration blog.
 
    */
 
