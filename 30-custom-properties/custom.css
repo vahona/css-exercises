@@ -1,0 +1,42 @@
+/*
+The racters we *have* to use when defining a Custom Property's name are:
+  -double dashes before name (--)
+  -underscore (_)
+  -dashe between tow word
+  -""
+  -[]
+  -$
+
+  */
+
+   /*
+    The characters can't we use in a Custom Property name:
+    -star (*)
+    -slash (/)
+   */
+   /*
+    Possible values can we assign to a new Custom Property:
+      -Value that can be used in another declaration var() fonction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
