@@ -1,8 +1,10 @@
+/*
 #c_and_i .row a                 { background-color: hsla(200deg, 100%, 50%, 0.1);}
 #c_and_i .row a + a             { background-color: hsla(200deg, 100%, 50%, 0.2);}
 #c_and_i .row a + a + a         { background-color: hsla(200deg, 100%, 50%, 0.3);}
 #c_and_i .row a + a + a + a     { background-color: hsla(200deg, 100%, 50%, 0.4);}
 #c_and_i .row a + a + a + a + a { background-color: hsla(200deg, 100%, 50%, 0.5);}
+*/
 /*
   … etc …
 
@@ -13,46 +15,45 @@
   --hue-bacground:36deg;
   --alpha-opacity:0.1;
   --saturation-set: 100%;
-  --lightness-set: 50%
+  --lightness-set: 50%;
+
+
+
 }
 
-.row:nth-of-type(1) {
-  background-color: orange;
+
+.row a:nth-of-type(1) {--alpha-opacity:0.1;}
+.row a:nth-of-type(2) {--alpha-opacity:0.2; }
+.row a:nth-of-type(3) {--alpha-opacity:0.3;}
+.row a:nth-of-type(4) {--alpha-opacity:0.4;}
+.row a:nth-of-type(5) {--alpha-opacity:0.5;}
+.row a:nth-of-type(6) {--alpha-opacity:0.6;}
+.row a:nth-of-type(7) {--alpha-opacity:0.7;}
+.row a:nth-of-type(8) {--alpha-opacity:0.8;}
+.row a:nth-of-type(9) {--alpha-opacity:0.9;}
+.row a:nth-of-type(10) {--alpha-opacity:1.0;}
+
+
+
+.row a{
+  background-color:
+   hsla(calc(var(--hue-bacground) * var(--hue)),
+   100%,
+   50%,
+  var(--alpha-opacity));
 }
 
-.row:nth-of-type(2) {
-  background-color:lightgreen
-}
+/*  */
+.row:nth-of-type(1) {--hue : 1;}
+.row:nth-of-type(2) {--hue :2;}
+.row:nth-of-type(3) {--hue : 3}
+.row:nth-of-type(4) {--hue: 4}
+.row:nth-of-type(5) {--hue: 5}
+.row:nth-of-type(6) {--hue: 6}
+.row:nth-of-type(7) {--hue: 7}
+.row:nth-of-type(8) {--hue: 8}
+.row:nth-of-type(9) {--hue: 9}
+.row:nth-of-type(10) {--hue: 10}
 
-.row:nth-of-type(3) {
-   background-color: rgb(20, 175, 20);
 
-    }
 
-.row:nth-of-type(4) {
-  background-color: rgb(38, 255, 0);
-}
-
-.row:nth-of-type(5) {
-  background-color: rgb(0, 206, 224);
-}
-
-.row:nth-of-type(6) {
-  background-color: rgb(0, 132, 255);
-}
-
-.row:nth-of-type(7) {
-  background-color: rgb(0, 26, 255);
-}
-
-.row:nth-of-type(8) {
-  background-color: rgba(162, 0, 255, 0.849);
-}
-
-.row:nth-of-type(9) {
-  background-color: rgb(255, 0, 221);
-}
-
-.row:nth-of-type(10) {
-  background-color:red;
-}
