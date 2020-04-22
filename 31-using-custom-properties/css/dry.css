@@ -1,3 +1,4 @@
+
 :root {
   --width-value: 20px;
   --hight-set:20px;
@@ -21,7 +22,7 @@
   height: var(--hight-set);
   background-color: rgb(63, 63, 63);
   transition: background-color var(--transition-set);
-  counter-increment: var(--content-set);
+  counter-increment:(item);
 }
 
 #dry a:hover {
@@ -29,7 +30,7 @@
 }
 
 #dry a::before {
-  content:counter(var(--content-set));
+  content:counter(item);
   position: absolute;
   top: 0;
   left: 0;
@@ -38,7 +39,7 @@
   font-size: 10px;
   line-height: var(--hight-set);
   font-weight: 700;
-  color:/* rgb(63, 63, 63)*/ var(--background-set);
+  color: rgb(63, 63, 63);
   transition: color var(--transition-set);
 }
 

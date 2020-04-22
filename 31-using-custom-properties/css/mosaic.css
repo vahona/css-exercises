@@ -8,3 +8,51 @@
 
   This would get crazy if I had to write out each and every anchor within each row, setting the unique `hsla()` per anchor.
 */
+
+:root{
+  --hue-bacground:36deg;
+  --alpha-opacity:0.1;
+  --saturation-set: 100%;
+  --lightness-set: 50%
+}
+
+.row:nth-of-type(1) {
+  background-color: orange;
+}
+
+.row:nth-of-type(2) {
+  background-color:lightgreen
+}
+
+.row:nth-of-type(3) {
+   background-color: rgb(20, 175, 20);
+
+    }
+
+.row:nth-of-type(4) {
+  background-color: rgb(38, 255, 0);
+}
+
+.row:nth-of-type(5) {
+  background-color: rgb(0, 206, 224);
+}
+
+.row:nth-of-type(6) {
+  background-color: rgb(0, 132, 255);
+}
+
+.row:nth-of-type(7) {
+  background-color: rgb(0, 26, 255);
+}
+
+.row:nth-of-type(8) {
+  background-color: rgba(162, 0, 255, 0.849);
+}
+
+.row:nth-of-type(9) {
+  background-color: rgb(255, 0, 221);
+}
+
+.row:nth-of-type(10) {
+  background-color:red;
+}
