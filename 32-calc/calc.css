@@ -10,7 +10,7 @@ Values that `calc()` function can support:
 
 */
 
-/* We can controle the mathematical order of operation by using () or []. */
+/* We can controle the mathematical order of operation by using () or [].((2 + 3) * 4) */
 
 /* We can use calc() fonction to convert one type of unit to another type of unit but we can combine them in one calc() fonction.
 */
@@ -24,7 +24,7 @@ Values that `calc()` function can support:
   -then we have to set negative half of the viewport width plus half the width of the element used. */
 
 /*
-  Can the `calc()` function work with colour values? e.g. a light red plus a light red should equal a darker red. Yes calc () function can work with those color.
+  Can the `calc()` function work with colour values? e.g. a light red plus a light red should equal a darker red. Yes It can.
 
 */
 
