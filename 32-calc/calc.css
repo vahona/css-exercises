@@ -1,0 +1,31 @@
+/*
+
+Values that `calc()` function can support:
+  -number,
+  -lenght,
+  -frequency,
+  -angle,
+  -time,
+  -percentage,
+
+*/
+
+/* We can controle the mathematical order of operation by using () or []. */
+
+/* We can use calc() fonction to convert one type of unit to another type of unit but we can combine them in one calc() fonction.
+*/
+
+/* If we want to convert a unitless number to a unit value, we have to divided the value with unit to 1unit.*/
+
+/* *plus* and *minus* operators inside the function need spaces around them because If we do not put space the brower consider the plus and minus as the sing value of the calc. */
+
+/* The way that we can convert a value into a negative value:
+  -first we have to set the width of element into 100vw,
+  -then we have to set negative half of the viewport width plus half the width of the element used. */
+
+/*
+  Can the `calc()` function work with colour values? e.g. a light red plus a light red should equal a darker red. Yes calc () function can work with those color.
+
+*/
+
+
