@@ -216,17 +216,18 @@ z-index
 /*
   Yes, we need transition, they are useful because it controle animation speed in our document. */
 
-  /* The bigest broblemes using a transition:
+  /* The bigest broblemes using a transition because:
     - We can not pause the animation,
     - We can not resume it,
     - We can not transform it
+    - When we are hurry
     */
 
     /*
-   . Transitions don't work reliably with the `auto` keyword being one of the end states because when you animate the max-height property to something very high, it will continue incresing.
+    Transitions don't work reliably with the `auto` keyword being one of the end states because  is not number when you animate the max-height property to something very high, it will continue incresing.
 
     */
 
     /*
-    We can stagger transition by using pseudo element :hover
+    We can stagger transition by using transition delay
     */
