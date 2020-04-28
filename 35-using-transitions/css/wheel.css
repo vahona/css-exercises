@@ -5,12 +5,13 @@
   --wheel-diameter: 100;
   --wheel-radius: calc(var(--wheel-diameter) / 2);
   --wheel-px:calc(var(--wheel-diameter) * 1px);
+  --max-travel-distance:var(--max-scene-width);
+  --rot-deg: calc(var(--rot-set) * 360deg);
   --rot-set : calc(var(--max-travel-distance) / var(--circo-set));
   --circo-set:calc(var(--pi-set) * var(--wheel-diameter));
   --pi-set:3.14;
   --max-scene-width: 1000;
-  --max-travel-distance:var(--max-scene-width);
-  --rot-deg: calc(var(--rot-set) * 360deg);
+
 }
 
 .scene {
