@@ -21,6 +21,10 @@
 */
 .scene:hover .wheel {
   left: 100%;
+
+
+
+
 }
 
 /* Wheel setup */
@@ -34,6 +38,8 @@
   height: var(--wheel-diameter);
   width: var(--wheel-diameter);
   position: relative;
+  transition-duration :2s;
+
 }
 
 .spoke {
