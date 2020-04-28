@@ -4,6 +4,8 @@
   --ball-diameter: 40px;
   --ball-string-length: 200px;
   --ball-string-width: 2px;
+  --falling-duration : 1s;
+  --transition-time: ease-in;
 }
 
 .pendulum {
@@ -30,6 +32,8 @@
   position: absolute;
   background-image: radial-gradient(#ddd 5%, #999 20%, #555 100%);
   transform-origin: calc(var(--ball-diameter) / 2) calc(var(--ball-string-length) * -1);
+  transition-property: transform;
+  transition-duration: 1s;
 }
 
 .metal-ball:nth-of-type(1) {--hanging-offset:-1;}
@@ -49,34 +53,28 @@
 
 .pendulum .metal-ball:nth-of-type(1) {
   transform: rotate(20deg);
- transition-duration: 2s;
- transition-delay: 0;
- transition-property: transform;
- transition-timing-function: ease-in;
+  transition-delay: calc(var(--falling-duration) * 0);
 
-
+}
+.pendulum:not(:hover) .metal-ball:nth-of-type(1){
+  transition-delay: var(--falling-duration);
+  transition-timing-function: ease-out;
 }
 .pendulum:hover .metal-ball:nth-of-type(1) {
   transform: rotate(0deg);
-  transition-timing-function: ease-out;
-  transition-duration: 2s;
-  transition-delay: 0s;
+  transition-delay: calc(var(--falling-duration) * 0);
+  transition-timing-function: var(--transition-time);
 
 }
 
 .pendulum .metal-ball:nth-of-type(3) {
   transform: rotate(0deg);
-  transition-duration: 1s;
-  transition-delay: 2s;
-  transition-property: transform;
-  transition-timing-function: ease-in-;
+  transition-delay: calc(var(--falling-duration) * 0);
+  transition-timing-function: var(--transition-time);
 
 }
 .pendulum:hover .metal-ball:nth-of-type(3) {
   transform: rotate(-20deg);
-  transition-timing-function: ease-in-out;
-  transition-duration: 2s;
-  transition-delay: 2s;
-  transition-timing-function: transform;
+  transition-delay: var(--falling-duration);
 
 }
