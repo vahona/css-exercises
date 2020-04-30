@@ -1,0 +1,38 @@
+/* The foncton in transformation :
+   - scale(),
+   - rotate(),
+   - translate(),
+   - skew(),
+   - perspective(),
+   - matrix(),
+*/
+
+/*
+We have to use separate because because one property can set the value as its order. If we use two property css will not know.
+
+
+*/
+
+
+/*
+   We use tranform-origine property if we want to move the central pin or axis of the transform away.
+*/
+
+/* It is preferable to use "transform: translate() rather than "position" because translate function does not make us to be confused of placing an element. However when you place an element by using position it maight go in anywhere place you do not expect whene you zooming off .
+ */
+
+ /*
+  When an element is translated / transformed, It does not affect the flow of the document. Transform is similar to layout positioning.
+
+
+ */
+/*
+
+*/
+ /*
+
+
+  What problems can you run in to when overriding a `transform` in a more specific selector:
+
+
+  */
