@@ -71,17 +71,15 @@
 }
 
 .scene:hover #solar-system {
-  transform: translate(55px, -50%) rotate(360deg);
-  transition-duration: 5s;
-   transition-timing-function: ease-in;
-   transition-delay: 0;
+  transform: translate(55px, -50%) rotate(1turn);
+
 
 
 }
 
 .scene:hover #earth-system {
  transform: translate(100px, -50%) rotate(360deg);
- transition-duration: 5s;
+ transition-duration: 10s;
 transition-timing-function: ease;
 
 }
