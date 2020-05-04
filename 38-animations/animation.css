@@ -1,0 +1,16 @@
+
+/*
+ Keyframe Animation start with @ caractere ant set to be @Keyfram.
+
+ */
+
+
+/*
+ Keyframes code is different to the rest of css because you can set css styles as many times as you want in one time of animation.
+ The animation is created by gradually changing from one set of css styles to another.
+ */
+
+ How do we use a keyframe animation we set up earlier as a property in a ruleset for an element
+/*
+  @keyframe rules specify the animation of the element
+*/
