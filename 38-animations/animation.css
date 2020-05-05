@@ -6,30 +6,25 @@
 
 
 /*
- Keyframes code is different to the rest of css because you can set css styles as many times as you want in one time of animation.
+ Keyframes code is different to the rest of css because you can set css styles as many times as you want in one time of animation, and we don't need round brakes.
  The animation is created by gradually changing from one set of css styles to another.
  */
 
 
 /*
-  @keyframe rules specify the animation of the element
+@keyframe element by using Animation name, animation duration are the
 */
 
 
 /* Keywords which are not available in "transition"
-animation
-animation-delay
-animation-direction
-animation-duration
-animation-fill-mode
-animation-iteration-count
-animation-name
-animation-play-state
-animation-timing-function
+infinite,
+Alternate,
+alternate-revarse,
+place-state,
 */
 
 /*
-We can animate as many as we want at same time in css
+We can animate as many as we want at same time in css.
 
 */
 
