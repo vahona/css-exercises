@@ -22,5 +22,21 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;;
+  background-repeat: no-repeat;
+  animation-name: rouge;
+  animation-duration: .8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+
+
+
+}
+
+@keyframes rouge {
+ 0% { bottom: 50%;}
+ 90%{transform:translateY(400px) scale(1, 1) ;}
+ 100%{bottom: 0; transform:translateY(420px) scale(1.5, .7);}
+
 }
