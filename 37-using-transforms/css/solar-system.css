@@ -12,6 +12,11 @@
   --sphere-lighting: linear-gradient(90deg, rgba(var(--black-rgb), 0.01) 0%, rgba(var(--black-rgb), 0.01) 50%, rgba(var(--black-rgb), 0.5) 50%, rgba(var(--black-rgb), 0.5) 100%);
 }
 
+.scene{
+  transform-style: preserve-3d;
+}
+
+
 .sphere {
   border-radius: 50%;
 }
@@ -96,7 +101,7 @@
 }
 
 .scene:hover #luna {
-  transform: translate(100%, -50px) rotate(12turn);
+  transform: translate(100%, -50px) rotate(-12turn);
   transform-origin: -55px 50% ;
   transition-duration: 20s;
 }
