@@ -1,0 +1,17 @@
+/* Text-shadow and box-shadaow are similar but they are different in the inset value because inset does not work in text-shadow
+*/
+
+/* . If I wanted to create a hard-edge shadow, one that looks like a solid border:
+You can you ([x] [y] [blur radius] [optional spread radius] [color])
+*/
+/*
+. Is it possible to create a shadow on a circular element? What about a polygon?
+
+Yes, it is possible to creat a shadow on a circular element and polygone.
+*/
+
+/*
+ Is it possible to create multiple shadows on the same element?
+ Yes, it is possible to creat multiple shadows on the same element by using come to separate the type of the shadow on element which you want to set.
+ */
+
