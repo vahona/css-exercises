@@ -12,9 +12,16 @@ Woof2 and Woof are good candidate to use in all browsers.
 
 /*
 
- The font-face syntax is also different to other @-blocks. What are the differences between a `@font-face` block and `@keyframes` / `@media` queries / `@supports` blocks, etc.
+ @font-face is a css rule allows you do download a particular font from your server to render a webpage if the user hasn't got that that installed.
+ @keyfram, @media queries, @supports css rule which is allow us to style our document into the current style sheet.
 */
 
 /*
 Fonts licencing restriction is font which you can use in your personal work but you can not share it to anyone else.
+*/
+
+/*
+
+We have to keeping in mind that fallback will be a reservation, it will not work unless font set is not available, fallbacks fonts should always a generic type.
+
 */
