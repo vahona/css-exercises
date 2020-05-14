@@ -1,9 +1,10 @@
 /*
 List of font in css :
  -svg,
- -woff2,
- -ttf,
- -eot
+ -woff2,(Web Open Font Forma)
+ -ttf(true Type Font)
+ -eot (embedded Open Type Font)
+ -otf (Open Type Font)
 
 */
 /*
@@ -12,16 +13,50 @@ Woof2 and Woof are good candidate to use in all browsers.
 
 /*
 
- @font-face is a css rule allows you do download a particular font from your server to render a webpage if the user hasn't got that that installed.
+ @font-face is a css rule allows you do download a particular font from your server to render a webpage if the user hasn't got that that installed, @font-face:no name, @font-face only have one {}.
  @keyfram, @media queries, @supports css rule which is allow us to style our document into the current style sheet.
 */
-
 /*
 Fonts licencing restriction is font which you can use in your personal work but you can not share it to anyone else.
 */
 
 /*
 
-We have to keeping in mind that fallback will be a reservation, it will not work unless font set is not available, fallbacks fonts should always a generic type.
+There are 8 font-face blocks
+
+*/
+
+/*
+   160 kilobytes of fonts would each our users have to download in the example.
+*/
+
+/*
+  We use syntax two url(): url() format()
+  We have 16 files would we have.
+
+*/
+/*
+Most of our users would probably have the exact font we want to serve already installed on their devices. How can we make sure the user's browser doesn't download the fonts they might already have?
+
+We have to use local foction and syntax.
+
+*/
+
+
+/*
+
+We have to keeping in mind that fallback will be a reservation, it will not work unless font set is not available, fallbacks fonts should always use a generic type(sans-scerif).
+
+
+
+*/
+/*
+
+ What property can we use to help the browser decide on which strategy to use? (font block timeout and font block timeout)
+
+ -renders,fallback,font,firs
+ -blank untill download
+ -font display, fallback, swap, optional
+
 
 */
