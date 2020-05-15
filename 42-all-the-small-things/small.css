@@ -1,0 +1,80 @@
+/*
+ Cursor : cursor property sets the type of the cursor if the mouse point over the element.
+ */
+ /*
+ Pointer-events : pointer-events is useful when set to none to desactivate the click target and allow elements underneath a certain element to get click.
+ */
+ /*
+ Outline: outline is a shorthand to set a various outline properties in a single declaration
+ */
+ /*
+ Filter property applies graphical effects like blur or color to an element.
+ */
+ /*
+  Appearance a properyty sets the appearance of elements in default.
+ */
+ /*
+  Scroll-snap-align properyt specifies the box's snap position  as an alignment of its snap area within its snap container's snapport.
+ */
+ /*
+  Object-fit sets how the content of an element should be set to fit its container
+ */
+
+ /*******************************************************************\
+
+ /* PSEUDO ELEMENTS */
+
+ /*
+
+ */
+
+ /*
+
+ */
+
+ /*
+  :visited selector represent a link which the user already visited.
+ */
+ /*
+  :active selector represents an element that is being activated by the user.
+ */
+
+ /*
+ :target selector represents a unique element with an id  matching the url
+ */
+ /*
+ :disabled selector represents any enabled element.
+ */
+ /*
+ :empty selector represent an element that has no childrean.
+ */
+ /*
+ :not() selector represents elements that do not match a list of sselectors.
+ */
+
+ /*
+ :matches()
+ */
+
+ /**************************************/
+
+ /* PSEUDO-ELEMENT */
+
+ /* ::first-letter applies the first letter of the the first line of a block element but only not preceded by other content.
+ */
+ /***********************/
+
+ /* MYSTERIOUS BLOCK */
+
+ /* `@supports lets you to specify declarations that depend on a browser's support for one or more specific css features.
+ */
+
+ /*****************************/
+
+ /*INTERESTING PSEUDO-ELEMENT */
+
+ /* attr()`function is used to retrieve the value of an attribute of the selected element and use it in the stylesheet.
+ */
+
+
+
