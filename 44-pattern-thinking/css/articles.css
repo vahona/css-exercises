@@ -6,6 +6,7 @@
 .example > article {
   font-weight: 700;
   text-align: center;
+  border: solid 1rem ;
 }
 
 .example > article > * {
@@ -23,14 +24,17 @@
 
 .example > article > header {
   --article-elem-color: 63, 63, 191;
+  margin-block-end: 1rem;
 }
 
 .example > article > header > h2 {
   font-size: 1rem;
+
 }
 
 .example > article > .content {
   --article-elem-color: 63, 191, 63;
+  margin-block-end: 1rem;
 }
 
 .example > article > footer {
@@ -38,9 +42,21 @@
 }
 
 /* 1 */
-[data-example="1"] {
+
+[data-example="1"] header, [data-example="1"] .content, [data-example="1"] footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
+
+[data-example="1"] article{
+
+}
+
+
+
+
 
 /* 2 */
 [data-example="2"] {
@@ -51,3 +67,5 @@
 [data-example="3"] {
 
 }
+
+
