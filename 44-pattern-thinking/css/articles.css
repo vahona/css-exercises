@@ -24,7 +24,7 @@
 
 .example > article > header {
   --article-elem-color: 63, 63, 191;
-  margin-block-end: 1rem;
+/* margin-block-end: 1rem;*/
 }
 
 .example > article > header > h2 {
@@ -34,7 +34,7 @@
 
 .example > article > .content {
   --article-elem-color: 63, 191, 63;
-  margin-block-end: 1rem;
+ /* margin-block-end: 1rem;*/
 }
 
 .example > article > footer {
@@ -48,10 +48,14 @@
   flex-direction: column;
   align-items: center;
 
+
+
 }
-
-[data-example="1"] article{
-
+[data-example="1"] header{
+ margin-block-end: 1rem;
+}
+[data-example="1"] .content{
+  margin-block-end: 1rem;
 }
 
 
@@ -59,13 +63,26 @@
 
 
 /* 2 */
-[data-example="2"] {
+[data-example="2"] article{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 1rem;
+}
+[data-example="2"] p,
+[data-example="2"] h2{
+display: inline-block;
+
 
 }
+
 
 /* 3 */
-[data-example="3"] {
-
+[data-example="3"] article {
+  flex-flow: row wrap-reverse;
 }
 
+[data-example="3"] h2, [data-example="3"].content, [data-example="3"] footer{
+ position: relative;
+ left: 25%;
 
+}
