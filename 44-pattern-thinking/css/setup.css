@@ -31,7 +31,7 @@ section + section {
 
 .example {
   border: 1px solid #ccc;
-  padding: 1rem;
+ /* padding: 1rem;*/
 }
 
 .example + .example {
