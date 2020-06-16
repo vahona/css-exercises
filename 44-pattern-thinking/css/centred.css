@@ -14,8 +14,26 @@
 
 /* 4 */
 [data-example="4"] {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
 
 }
+[data-example="4"] p{
+  display: inline-block;
+
+
+}
+[data-example="4"] .centred{
+margin-inline-start: 1rem;
+margin-inline-end: 1rem;
+text-align-last: center;
+
+}
+
+
+
 
 /* 5 */
 [data-example="5"] {
