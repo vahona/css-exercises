@@ -37,10 +37,48 @@ text-align-last: center;
 
 /* 5 */
 [data-example="5"] {
+ display: grid;
+ grid-template-rows: 1fr;
+ row-gap: 1rem;
+ flex-direction: column;
+ max-width: 100%;
+ min-height: 100%
 
+}
+[data-example="5"] p{
+display: inline-block;
+align-items: center;
+
+}
+[data-example="5"].centred{
+ margin-inline-start: 1rem;
+ grid-row: 2;
 }
 
 /* 6 */
-[data-example="6"] {
+[data-example="6"] p{
+  display: inline-block;
+
+}
+[data-example="6"] div{
+ margin-inline-start: 1rem;
+ margin-inline-end: 1rem;
+ text-align: center;
+ left: 0;
+ top: 50%;
+ bottom: 0;
+ right: 0;
+ position: relative;
+ vertical-align: center;
+ transform: translate(0, -50%);
+
+
+
+}
+[data-example="6"]{
+  position: absolute;
+}
+[data-example="6"] div{
+
 
 }
